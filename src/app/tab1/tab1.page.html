@@ -1,17 +1,36 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Pizzas
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<!-- Searchbar with danger color -->
+<ion-searchbar color="danger"></ion-searchbar>
+<ion-item>
+  <ion-thumbnail slot="start">
+    <img src="https://i0.wp.com/nypost.com/wp-content/uploads/sites/2/2018/09/margherita_pie_with_spatula.jpg?quality=90&strip=all&ssl=1">
+  </ion-thumbnail>
+  <ion-label>Pizza Marguerita</ion-label>
+  <ion-badge color="primary">34,90</ion-badge>
+</ion-item>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+<ion-item>
+  <ion-thumbnail slot="start">
+    <img src="https://i.pinimg.com/originals/1f/df/0d/1fdf0d7aaaebcc093b8fc00ce384f50b.jpg">
+  </ion-thumbnail>
+  <ion-label>Calabresa com Cebola</ion-label>
+  <ion-badge color="primary">41,90</ion-badge>
+</ion-item>
+
+<ion-item>
+  <ion-thumbnail slot="start">
+    <img src="https://th.bing.com/th/id/OIP.xMyrEc8QZStZl-4sgzlyUQHaE8?pid=ImgDet&rs=1">
+  </ion-thumbnail>
+  <ion-label>Pizza de Brócolis e Queijo</ion-label>
+  <ion-badge color="primary">39,90</ion-badge>
+</ion-item>
+
 </ion-content>
